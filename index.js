@@ -43,9 +43,11 @@ function guestScoreThree() {
 // reset button
 
 function resetHomeBtn() {
+    homeNumber = 0
     home.textContent = 0
 }
 
 function resetGuestBtn() {
+    guestNumber = 0
     guest.textContent = 0
 }
